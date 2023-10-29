@@ -24,7 +24,9 @@
 			<div class="right">{period}</div>
 		</div>
 		{#if !hidden}
-			<div class="sub-line">Details</div>
+			<div>
+				<slot />
+			</div>
 		{/if}
 	{:else}
 		<div>
@@ -37,7 +39,7 @@
 
 <style>
 	.resume-line {
-		border: solid 0.1rem gray;
+		border: solid 0.1em gray;
 		margin: 4px;
 		padding: 4px;
 	}
@@ -62,10 +64,5 @@
 		max-width: max-content;
 		width: 100%;
 		font-weight: bold;
-	}
-	.sub-line {
-		border: solid 0.07rem gray;
-		margin: 4px;
-		padding: 4px;
 	}
 </style>
