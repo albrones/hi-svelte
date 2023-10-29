@@ -1,0 +1,74 @@
+[
+    {
+        "enterprise": "Hellowork",
+        "position": "Tech Lead",
+        "team": "Seekube Squad",
+        "period": "Oct. 2023 - Today",
+        "description": "To be added soon ...",
+        "stack": "To be added soon ..."
+    },
+    {
+        "enterprise": "HelloAsso",
+        "position": "Front-end Developer",
+        "team": "Plateform Squad",
+        "period": "Jan. 2023 - Sept. 2023",
+        "description": "Le projet HelloAsso est une plateforme de gestion de campagnes diverses à destination desassociations et un ensemble d’outils gratuit. Ma mission était d’aider à la migration desapplications de Nuxt2 à Nuxt3 et au développement de nouvelles fonctionnalités pour laplateforme (Adhésion Hors-Ligne, Réadhésion, refonte campagne de Don et de Vente.)Plusieurs chantiers ont été commencés, la réécriture du design system (en Vue3), des POCpour la communauté de pratiques frontend pour mettre en place des chantiers d’améliorationde l’architecture et des guidelines afin de faciliter l’arrivée de nouveaux développeurset de permettre la création de feature team plus facilement à termes. L’entreprise étantdans une grosse phase de croissance de son effectif technique.",
+        "stack": "VueJS 2.7,VueJS3, Nuxt2, Nuxt3, Javascript, VueX, NodeJs,Vitest, Playwright, Storybook"
+    },
+    {
+        "enterprise": "PlayPlay",
+        "position": "Front-end Developer",
+        "team": "Katana Squad",
+        "period": "May 2022 - Jul. 2023",
+        "description": "Le projet PlayPlay est une application de montage vidéo simplifié à destination des entreprises. Ma mission était de venir en renfort une feature team avec mon expérience frontend et aussi en Software Craftsmanship pour faire monter en compétences des développeurs frontend junior ou backend.Nous avons développé plusieurs players vidéo pour plusieurs usages, ProjectView: un player générique pour afficher plusieurs types de vidéos (draft ou généré), CustomPage: une page customisable pas l’utilisateur qui intègre un player qui s’adapte aux 3 formats de vidéos et EmbedVideo: une player vidéo responsif embarquable dans le site de l’utilisateur.En parallèle, j’ai pu contribuer à la création de communauté de pratiques frontend pour mettre en place des chantiers d’amélioration de l’architecture de la partie front. Dans une démarche d’amélioration continue plusieurs tasks forces ont été créé pour avancer sur différents sujets : Architecture, Guidelines, Design System, Performances, ViteBuild, etc",
+        "stack": "VueJS 2.7, TypeScript/Javascript, VueX, Laravel, NodeJs Cypress, Jest, Docker, GitHubActions"
+    },
+    {
+        "enterprise": "Splio",
+        "position": "Front-end Developer",
+        "team": "Marketing Automation Squad",
+        "period": "May 2021 - May 2022",
+        "description": "Le projet Async Population portait sur la refonte d’un module legacy  de création de scénario de campagne de mailing écrit en Jquery, qui est très complexe et très dur à maintenir, vers du React. Il y avait aussi une partie backend qui devait être réécrite en Go et aussi toute l’infra afin d’améliorer les processus, les API et aussi les performances d'exécution et de déploiement, deux autres Zenika ont rejoint l’équipe Marketing Auto pour répondre à ces besoins.Nous avons dû faire majoritaire du 'reverse engineering' des fonctionnalités du legacy pour réaliser ce nouveau front car il n’était pas documenter et que nous devions nous articuler avec le backend legacy qui sera progressivement amélioré pour faire vivre les deux modules en simultanée. C’est pourquoi j’ai commencé à corriger et enrichir des tests End to End et à refactorer le legacy afin d’en déduire les règles de gestion qui le régissent et éviter des régressions sur ce module en production.Nous avons aussi porté les valeurs du Software Craftsmanship, de l'Agilité et diverses bonnes pratiques autour du développement informatique, au sein de l’équipe et aussi partagées auprès des autres équipes via un comité de bonnes pratiques mensuel.",
+        "stack": "React 16, Javascript/Jquery, Redux, Go, Kotlin, Nightwatch/Selenium, Jest, Docker,GitlabCI"
+    },
+    {
+        "enterprise": "ManoMano",
+        "position": "Back-end Developer",
+        "team": "Seller-Order Squad",
+        "period": "Jul. 2020 - Apr. 2021",
+        "description": "Le projet Seller-Order portait sur la création d'un micro-service from scratch en Java avec Spring Boot. Pour cela nous avons créé une équipe de 2 Zenika, un Lead Dev Spring et moi même. L'objectif était de remplacer un micro-service écrit en PHP/Symfony.Nous avons terminé par rédiger une documentation métier et une technique pour réaliser la passation de connaissances et transfert de compétences à une équipe interne qui reprend la maintenance du micro-service avec un début de migration vers Kotlin.",
+        "stack": "Environnement technique: Java 11, Spring Boot 2.3, Kotlin, GitlabCI, AWS, Locust, Postman, OpenApi, DataDog, Kong"
+    },
+    {
+        "enterprise": "DSI Pôle Emploi",
+        "position": "Scrum Master",
+        "team": "Mon Portefeuille Squad",
+        "period": "Jan. - Mar. 2020",
+        "description": "Le projet Mon Portefeuille est destiné à usage interne au sein des agences Pôle Emploi (PE). Il s'agit d'une application web pour les conseillers PE afin de faciliter la gestion des demandeurs d'emploi (DE) et d'offrir un nouveau suivi dans le temps de ces DE (ce qui n'était pas le cas jusqu'à aujourd'hui).A mon arrivée, le projet avait déjà commencé depuis plus d'un an et avait connu divers problèmes: précédent Chef de Projet qui ne respectait pas le fonctionnement en Sprint, précédent Product Owner ne rédigeant pas les Users Stories, projet raccroché artificiellement à un train SAFe, précédent Scrum Master et équipe de fabrication surchargés et démotivés. Suite à tous ces événements, l'équipe ne produisait peu ou pas de valeur au fur et à mesure des sprintsMa mission était très variée. Faire de la synchronisation avec d'autres équipes Cap Gemini distantes (rattaché à d'autres trains SAFe) afin d'identifier et d'anticiper les différentes adhérences entre les équipes contributrices (Scrum of Scrum), protéger l'équipe des sollicitations externes et alléger le sentiment de pression constant, du suivi d'avancement et de pilotage, mettre en place Key Performance Indicators, challenger l'architecture applicative de l'entreprise mais aussi les décisions techniques prises par l'équipe (et les équipes distantes), améliorer la santé de l'équipe (humeur, motivation, cohésion), faire des ateliers agile et faire émerger et mettre en place de tâches d'améliorations continues avec l'équipe",
+        "stack": "Environnement technique: Javascript-ES6 (Angular), Java ('Spring' propriétaire), SQL (Hibernate), HTML, CSS, Karma, Jasmine, Cypress, GraphQL, Git, Concourse, Jenkins, Docker"
+    },
+    {
+        "enterprise": "Fatec Group",
+        "position": "Front-end Developer & Scrum Master",
+        "team": "Starfleet Squad",
+        "period": "Dec. 2018 - Jan.2020",
+        "description": "Le projet Starfleet de FATEC, gestionnaire de flotte de véhicules (ex. SNCF), est une application web destinée à remplacer leur ERP actuel afin d'être maître de leurs outils et ainsi donner la meilleure expérience utilisateur au sein de l'entreprise. Je travaille depuis 1 an et demi à créer sa DSI et développer leur outil.Le projet est développé avec Nuxt/Vue pour la partie Frontend et Jest/Cypress pour les tests. La partie Backend avec Spring et Hibernate et JUnit/Cucumber pour les testsMa mission a été dans un premier temps de venir en renfort des développeurs Zenika basés à Paris et les employés FATEC de la DSI, basés à Marseille (8 personnes)J'ai rapidement été amené à remplacer la personne chargée du rôle de Scrum Master, tout en gardant en parallèle mon rôle de développeur Backend et Frontend. L'équipe ayant beaucoup évolué, nous sommes passés à une équipe de 12 personnes avec seulement 2 personnes issues de l'équipe présente lors de mon arrivéePendant cette expérience, ma mission a été d'aider FATEC à créer leur outil, accompagner les développeurs au sujet de leur montée en compétence sur la partie Frontend et les aider à améliorer leur maturité agile pour rendre leur équipe autonome à termePour y arriver, nous avons dû notamment mettre en place une organisation en mode Scrum à distancePar ailleurs, nous faisions systématiquement des codes reviews avec le principe de Merge Request afin de garantir la qualité du code produit.",
+        "stack": "Environnement technique: Javascript-ES6 (Nuxt/Vue), Java (Spring), Postgres (Hibernate), HTML, CSS, Jest, Cucumber, Cypress, Babel, Git, LiquiBase, GitlabCI, Jenkins, Docker"
+    },
+    {
+        "enterprise": "Dotic",
+        "position": "Fullstack Developer",
+        "team": "Connect-Control Squad",
+        "period": "Jul. - Nov. 2018",
+        "description": "Le projet Connect-Control de Dotic, spécialiste dans les réseaux FTTH et FTTE, est une application web permettant de gérer et de contrôler les réseaux de fibre optique via une interface graphique afin de détecter les anomalies présentes sur le réseau et y remédier au plus vite.L'application est développée avec AngularJS pour la partie Frontend et Express et Mongoose pour la partie Backend. Le projet a été initié via un générateur YeomanMa mission était de venir en renfort au développeur sur place et autres membres de l'équipe à distance composée de 1 développeur FME1 designeuse et 1 chargée du SEO. Nous devions remettre à niveau l'application qui avait accumulé pas mal de dette technique avec des technologies obsolètes (MEAN) après le passage de plusieurs développeursNous avons donc fait une refonte intégrale de l'application passage à ES6 avec Babel avec des Class pour une future migration vers ReactJSrefactoring global avec des composants, aussi pour faciliter la migration vers ReactJSajout de nouvelles fonctionnalités diverses dont des graphiques avec Chart.jimplémentation de GraphQL pour optimiser les temps de chargement de grosses quantités de donnéesmise en place de tests automatisés avec JesNous avons aussi mis en place une organisation en mode Scrum avec du Kaban et du Planning Poker avec un PO distant. Nous faisions systématiquement des codes reviews avec le principe de Merge Reques",
+        "stack": "Environnement technique: Javascript-ES6 (AngularJS & Express), GraphQL, MongoDB (Mongoose), Chart.js, Bootstrap, HTML, CSS, Jest, Git, Gulp, Jenkins, Google Analytics & TagManager, Docker, FME Server"
+    },
+    {
+        "enterprise": "SQLi - La Banque Postale",
+        "position": "Front-end Developer",
+        "team": "Q4Q Squad",
+        "period": "Jan. - Jun. 2018",
+        "description": "SQLi, en partenariat avec la DISFE de la Banque Postale et d'autres acteurs tel que Accenture, est chargé de la réalisation du projet Q4Q, l'application cliente mobile & tablette de la Banque Postale. L'application est développée avec leurs frameworks propriétaires FwAD & FwMC pour la partie Frontend et ROA pour la partie Backend, elle s'appuie sur Cordova pour être déployé sur mobile et tablette, sur IOS et Android.Dans les locaux SQLiavec 1 MOE distant, j'ai réalisé la version 2.11 de l'application, partie tablette basée sur le FwMC avec gestion de l'accessibilité AAAdans une équipe de 3 développeurs et 1 MOE distant, nous étions en charge de réaliser les maquettes destinées à la version 2.13 mobile comprenant des composants installés par la suite dans leurs framework CSS propriétaire ToolBoxA la DISFE, La Banque Postaleintégré au sein du service TNI en partenariat avec Accenture et SQLi, une équipe de 5 développeurs (2 Back et 3 Front) et 2 MOE étaient chargés du développement de la version 2.13 de l'application mobile. Notre mission était de construire une nouvelle Interface Serveur REST pour intégrer les nouvelles fonctionnalités liées à la personnalisation de cartes",
+        "stack": "Environnement technique: Javascript (FwAD & FwMC), Cordova, Java (ROA), HTML, CSS, Jasmine, KarmaJS, Git, Jenkins"
+    }
+]
