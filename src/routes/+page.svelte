@@ -1,6 +1,7 @@
 <script>
 	import welcome from '$lib/images/svelte-welcome.webp';
 	import welcome_fallback from '$lib/images/svelte-welcome.png';
+	import ResumeLine from './ResumeLine.svelte';
 </script>
 
 <svelte:head>
@@ -15,68 +16,64 @@
 <section>
 	<h2>Experiencies</h2>
 	<div>
-		<h3 class="left">Consultant at Zenika</h3>
-		<div class="line" />
-		<h3 class="right">Jan. 2018 - Today</h3>
+		<ResumeLine enterprise={'Hellowork'} position={'Tech Lead'} period={'Jan. 2018 - Today'} />
 	</div>
 	<div>
-		<ul>
-			<li>
-				<div class="left"><b>Hellowork</b> - Tech Lead on <b>Seekube Squad</b></div>
-				<div class="line" />
-				<div class="right">Oct. 2023 - Today</div>
-			</li>
-			<li>
-				<div class="left"><b>HelloAsso</b> - Front-end Developer on <b>Plateform Squad</b></div>
-				<div class="line" />
-				<div class="right">Jan. 2023 - Sept. 2023</div>
-			</li>
-			<li>
-				<div class="left"><b>PlayPlay</b> - Front-end Developer on <b>Katana Squad</b></div>
-				<div class="line" />
-				<div class="right">May 2022 - Jul. 2023</div>
-			</li>
-			<li>
-				<div class="left">
-					<b>Splio</b> - Front-end Developer on <b>Marketing Automation Squad</b>
-				</div>
-				<div class="line" />
-				<div class="right">May 2021 - May 2022</div>
-			</li>
-			<li>
-				<div class="left"><b>ManoMano</b> - Back-end Developer on <b>Seller-Order Squad</b></div>
-				<div class="line" />
-				<div class="right">Jul. 2020 - Apr. 2021</div>
-			</li>
-			<li>
-				<div class="left">
-					<b>DSI Pôle Emploi</b> - Scrum Master on <b>Mon Portefeuille Squad</b>
-				</div>
-				<div class="line" />
-				<div class="right">Jan. - Mar. 2020</div>
-			</li>
-			<li>
-				<div class="left">
-					<b>Fatec</b> - Front-end Developer & Scrum Master on <b>Starfleet Squad</b>
-				</div>
-				<div class="line" />
-				<div class="right">Dec. 2018 - Jan.2020</div>
-			</li>
-			<li>
-				<div class="left"><b>Dotic</b> - Fullstack Developer on <b>Connect-Control Squad</b></div>
-				<div class="line" />
-				<div class="right">Jul. - Nov. 2018</div>
-			</li>
-			<li>
-				<div class="left">
-					<b>SQLi - La Banque Postale</b> - Front-end Developer on <b>Q4Q Squad</b>
-				</div>
-				<div class="line" />
-				<div class="right">Jan. - Jun. 2018</div>
-			</li>
-		</ul>
+		<ResumeLine
+			enterprise={'Hellowork'}
+			position={'Tech Lead'}
+			team={'Seekube Squad'}
+			period={'Oct. 2023 - Today'}
+		/>
+		<ResumeLine
+			enterprise={'HelloAsso'}
+			position={'Front-end Developer'}
+			team={'Plateform Squad'}
+			period={'Jan. 2023 - Sept. 2023'}
+		/>
+		<ResumeLine
+			enterprise={'PlayPlay'}
+			position={'Front-end Developer'}
+			team={'Katana Squad'}
+			period={'May 2022 - Jul. 2023'}
+		/>
+		<ResumeLine
+			enterprise={'Splio'}
+			position={'Front-end Developer'}
+			team={'Marketing Automation Squad'}
+			period={'May 2021 - May 2022'}
+		/>
+		<ResumeLine
+			enterprise={'ManoMano'}
+			position={'Back-end Developer'}
+			team={'Seller-Order Squad'}
+			period={'Jul. 2020 - Apr. 2021'}
+		/>
+		<ResumeLine
+			enterprise={'DSI Pôle Emploi'}
+			position={'Scrum Master'}
+			team={'Mon Portefeuille Squad'}
+			period={'Jan. - Mar. 2020'}
+		/>
+		<ResumeLine
+			enterprise={'Fatec Group'}
+			position={'Front-end Developer & Scrum Master'}
+			team={'Starfleet Squad'}
+			period={'Dec. 2018 - Jan.2020'}
+		/>
+		<ResumeLine
+			enterprise={'Dotic'}
+			position={'Fullstack Developer'}
+			team={'Connect-Control Squad'}
+			period={'Jul. - Nov. 2018'}
+		/>
+		<ResumeLine
+			enterprise={'SQLi - La Banque Postale'}
+			position={'Front-end Developer'}
+			team={'Q4Q Squad'}
+			period={'Jan. - Jun. 2018'}
+		/>
 	</div>
-	<ul />
 </section>
 
 <style>
@@ -87,28 +84,10 @@
 		align-items: left;
 		flex: 0.2;
 	}
-	section > div,
-	li {
-		display: flex;
+	section > div {
+		/* display: flex;
 		flex-direction: row;
-		align-items: center;
-	}
-	.line {
-		border-bottom: 1px dashed grey;
-		position: relative;
-		width: 100%;
-		z-index: -1;
-	}
-	.left {
-		padding-right: 15px;
-		max-width: max-content;
-		width: 100%;
-	}
-	.right {
-		padding-left: 15px;
-		max-width: max-content;
-		width: 100%;
-		font-weight: bold;
+		align-items: center; */
 	}
 
 	h1,
