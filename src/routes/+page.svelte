@@ -34,7 +34,7 @@
 				team={item.team}
 				period={item.period}
 			>
-				<ResumeLineDetail description={item.description} stack={item.stack} />
+				<ResumeLineDetail description={item.description} stack={item.stack} tags={item.tags} />
 			</ResumeLine>
 		{/each}
 	</div>

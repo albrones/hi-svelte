@@ -5,7 +5,12 @@
         "team": "Seekube Squad",
         "period": "Oct. 2023 - Today",
         "description": "To be added soon ...",
-        "stack": "To be added soon ..."
+        "stack": "To be added soon ...",
+        "tags": [
+            "REACTJS",
+            "NODEJS",
+            "TAILWINDCSS"
+        ]
     },
     {
         "enterprise": "HelloAsso",
